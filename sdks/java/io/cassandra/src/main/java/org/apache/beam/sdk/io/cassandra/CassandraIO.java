@@ -45,7 +45,7 @@ import org.apache.beam.sdk.values.PDone;
  * <p>{@code CassandraIO} provides a source to read and returns a bounded collection of entities as
  * {@code PCollection<Entity>}. An entity is built by Cassandra mapper ({@code
  * com.datastax.driver.mapping.EntityMapper}) based on a POJO containing annotations (as described
- * http://docs.datastax .com/en/developer/java-driver/2.1/manual/object_mapper/creating/").
+ * http://docs.datastax.com/en/developer/java-driver/2.1/manual/object_mapper/creating/").
  *
  * <p>The following example illustrates various options for configuring the IO:
  *
